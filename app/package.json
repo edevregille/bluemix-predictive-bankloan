@@ -1,0 +1,21 @@
+{
+  "name": "DemoPredictiveAnalytics",
+  "version": "1.0.0",
+  "description": "Demo how to use the Bluemix predictive analytics service",
+  "author": "Emmanuel de Vregille",
+  "private": true,
+  "license": "@emmanuel",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.13.2",
+    "cookie-parser": "1.4.0",
+    "ejs": "^2.3.2",
+    "express": "~4.13.0",
+    "method-override": "^2.3.5",
+    "request": "^2.69.0",
+    "serve-favicon": "^2.3.0"
+  }
+}

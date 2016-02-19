@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app="appSPA">
+	<head>
+		<base href="/"> 
+		<% include partials/page/head.ejs %>
+	</head>
+
+	<body class="">
+		<script src="bower_components/angular/angular.js"></script> <!-- load angular -->
+		<script src="bower_components/angular-route/angular-route.js"></script> <!-- load angular-route -->
+		<script src="bower_components/angular-resource/angular-resource.js"></script> <!-- load angular-ressource  -->
+		
+		<script src="js/controllers/form-controller.js"></script> <!--load controllers -->
+		<script src="js/services/form-service.js"></script> <!--load controllers -->
+		<script src="js/core.js"></script> <!--load app -->
+
+		<!-- Page Wrapper -->
+			
+		<!-- welcome -->
+		<section id="banner_top">
+			<div class="inner">
+				<h2>Bank Loan Scoring</h2>
+			</div>
+		</section>
+
+		<!-- section add a new article -->
+		<div ng-view autoscroll="true"></div>
+
+	</body>
+</html>
+

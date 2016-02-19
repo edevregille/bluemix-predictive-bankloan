@@ -14,14 +14,12 @@
 # limitations under the License.
 #
 applications:
-- name:      demobankpa
+- name:      <APP_NAME>
 
 # you may need to use a different hostname, if someone has already used this one
 
-  host:     demobankpa	
+  host:     <HOST_NAME>	
   command:	node app.js
   memory:   128M
   instances: 1
-  services:
-  - Predictive Analytics-zf
 

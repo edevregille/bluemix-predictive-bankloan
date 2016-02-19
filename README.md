@@ -10,10 +10,11 @@ Calculate bank loan scoring based on a model created using SPSS
 ```
 Update the manifest file with the name of your application and push it to your Bluemix account with the following commands:
 
-'''
+```
   cf login 
   
-'''
+```
+
 Go to the root folder of the manifest file (app folder) and then:
 
 ```

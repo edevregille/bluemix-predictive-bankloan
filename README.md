@@ -2,6 +2,11 @@
 
 Calculate bank loan scoring based on a model created using SPSS
 
+Following routes available:
+- / to get the form and calculate the loan bank score
+- /env to get the environment details
+- /metadata to get the information about the model
+
 # How to Deploy
 
 1. Deploy the application on Bluemix

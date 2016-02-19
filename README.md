@@ -6,7 +6,7 @@ Calculate bank loan scoring based on a model created using SPSS
 
 1. Deploy the application on Bluemix
 ```
-  git clone 
+  git clone https://github.com/edevregille/bluemix-predictive-bankloan.git
 ```
 Update the manifest file with the name of your application and push it to your Bluemix account with the following commands:
 

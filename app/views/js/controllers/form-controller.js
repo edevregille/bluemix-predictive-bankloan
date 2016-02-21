@@ -15,7 +15,8 @@ appControllers.controller('appFormController',['$scope','$location','Forms','$ro
 		income: "35",
 		debtinc:"1", 
 		creddebt:"5",
-		othdebt:"0"
+		othdebt:"0",
+		defaultpayment:"0" 
 	};
 	$scope.score = '';
 
